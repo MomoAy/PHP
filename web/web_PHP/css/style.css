@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .navtop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #a86698;
+    padding: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .navleft {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #f7e3d5;
+    padding: 80px;
+    color: #fff;
+  }
+  
+  .navleft ul {
+    display: block;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  
+  .navleft ul li {
+    padding-bottom: 40px;
+    list-style-type: none;
+  }
+  
+  .navleft ul li a {
+    text-decoration: none;
+  }
+  
+  .navleft ul li a:hover {
+    padding: 7px 10px 7px 10px;
+    background-color: #e6449d;
+    border-radius: 3px;
+  }
+  
+  .formulaire {
+    width: 75%;
+    height: 600px;
+    margin: 230px 0px 30px 335px;
+    padding: 50px;
+    border: 3px solid #952626;
+  }
+  
+  .formulaire .row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .formulaire .bloc {
+    margin-top: 50px;
+  }
+  
+  .formulaire .bloc button[type="submit"] {
+    margin-left: 10px;
+  }
+  
+  .formulaire .bloc button {
+    margin-right: 30px;
+    color: #fff;
+    margin-top: 50px;
+  }
+  
+  .formulaire .bloc button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .formulaire input[type="date"] {
+    flex: 1;
+    margin: 10px;
+    margin-right: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 70px;
+    text-align: center;
+  }
+  
+  .formulaire input[type="text"] {
+    flex: 1;
+    margin: 10px;
+    margin-right: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .formulaire textarea {
+    flex: 1;
+    margin: 10px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    
+  }
+  
+  .formulaire button[type="submit"] {
+    background-color: #952626;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .formulaire button[type="reset"] {
+    background-color: #952626;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  

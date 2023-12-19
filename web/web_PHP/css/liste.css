@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  margin: 300px 200px 200px 300px;
+  padding: 20px;
+  border: 3px solid #952626;
+  width: 80%;
+  height: 600px;
+  /* padding: 80px auto; */
+}
+
+.navtop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #a86698;
+  padding: 80px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navleft {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #f7e3d5;
+  padding: 80px;
+  color: #fff;
+}
+
+.navleft ul {
+  display: block;
+  justify-content: space-between;
+  padding-top: 30px;
+
+}
+
+.navleft ul li {
+
+  padding-bottom: 40px;
+  list-style-type: none;
+
+}
+
+.navleft ul li a {
+  text-decoration: none;
+}
+
+.navleft ul li a:hover {
+  padding: 7px 10px 7px 10px;
+  background-color: #e6449d;
+  border-radius: 3px;
+}
+
+
+
+/*//////*/
+
+table {
+  border-collapse: collapse;
+  height: 500px;
+  /* width: 80%; */
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  /* float: left; */
+}
+
+th,
+td {
+  padding: 10px;
+  border: 2px solid #ccc;
+  width: 600px;
+  text-align: center;
+}
+
+th {
+  background-color: #f1f1f1;
+}
+
+.container a input[type="submit"] {
+  text-decoration: none;
+  background-color: #952626;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.liste {
+  display: flex;
+  /* padding-left: 150px ; */
+  align-items: center;
+}
+
+.container .bouton {
+  padding-right: 20px;
+}
+
+.container .liste .action {
+  display: flex;
+  justify-content: space-evenly
+}
+
+.container .liste .action button {
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+/* .container .liste table tbody tr td button .supp{
+  padding-left: 10px;
+  padding-right: 10px;
+} */

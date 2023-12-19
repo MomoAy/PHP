@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .navtop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #a86698;
+    padding: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .navleft {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #f7e3d5;
+    padding: 80px;
+    color: #fff;
+  }
+  
+  .navleft ul {
+    display: block;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  
+  .navleft ul li {
+    padding-bottom: 40px;
+    list-style-type: none;
+  }
+  
+  .navleft ul li a {
+    text-decoration: none;
+  }
+  
+  .navleft ul li a:hover {
+    padding: 7px 10px 7px 10px;
+    background-color: #e6449d;
+    border-radius: 3px;
+  }
+  .container{
+    margin: 250px 50px 30px 300px;
+    border: 3px solid #952626;
+    width: auto;
+    height: 800px;
+
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 30px 30px 30px 45px;
+    width: 95%;
+    height: 85%;
+    /* margin: 20px 10px 20px 30px; */
+}
+caption{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+th {
+    border: 1px solid;
+    width: 100px;
+    height: 40px;
+    /* width: 40px;
+    height: 50px; */
+}
+/* .trial{
+    position:relative;
+} */
+
+td {
+    /* width: 40px;
+    height: 50px; */
+    border: 1px solid;
+    text-align: center;
+    /* top: 5px;
+    right: 5px;
+    margin: 2px; */
+    /* padding: 10px; */
+    /* text-align:center ; */
+    /* position: absolute; */
+    
+    
+}
+/* .choice{
+  border-bottom: 5px solid #cf482e;
+} */
+.contain{
+  margin-top: 15px;
+}
+
+.detail{
+  /* display: flex; */
+  border: 1px solid #000;
+  width: 250px;
+  margin-left: 5px;
+  color: #fff;
+  margin-bottom: 7px;
+  /* background-color: rgb(240, 163, 28); */
+}
+#ev1{
+  background-color: #e34848;
+}
+#ev2{
+  background-color: pink;
+}
+#ev3{
+  background-color: yellowgreen;
+}
+#ev4{
+  background-color: burlywood;
+}
+#ev5{
+  background-color: chocolate;
+}
+#ev6{
+  background-color: chocolate;
+}
+.row1{
+  display: flex;
+/* justify-content: space-between; */
+}
+.row1 p{
+  margin-left: 3px;
+}
+.row2{
+  display: flex;
+/* justify-content: space-between; */
+
+}
+.rowA{
+  display: flex;
+}
+.rowA p{
+  margin-left: 3px;
+}
+
+.rowB{
+display: flex;
+margin-left: 10px;
+}
+.rowB p{
+margin-left: 3px;
+}
+
+.trial {
+  position: relative;
+}
+
+.essai {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 2px;
+  margin: 5px;
+}
+
+/* .choice{
+  text-align: right;
+  margin-right: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  margin-top: 2px;
+} */

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .navtop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #a86698;
+    padding: 80px;
+  }
+  
+  .navleft {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #f7e3d5;
+    padding: 80px;
+    color: #fff;
+  }
+  
+  .navleft ul {
+    display: block;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  
+  .navleft ul li {
+    padding-bottom: 40px;
+    list-style-type: none;
+  }
+  
+  .navleft ul li a {
+    text-decoration: none;
+  }
+  
+  .navleft ul li a:hover {
+    padding: 7px 10px 7px 10px;
+    background-color: #e6449d;
+    border-radius: 3px;
+  }
+  
+  .container {
+    margin: 250px 50px 30px 300px;
+    border: 2px solid;
+    width: auto;
+    height: 800px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border: 1px solid;
+    margin: 30px 30px 30px 45px;
+    width: 95%;
+    height: 85%;
+  }
+  
+  caption {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  th {
+    border: 1px solid;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .date {
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .trial {
+    position: relative;
+  }
+  
+  .essai {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 2px;
+    margin: 5px;
+  }
+  
+  td {
+    border: 1px solid;
+    padding: 10px;
+    text-align: right;
+  }
+  
